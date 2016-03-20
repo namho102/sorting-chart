@@ -82,37 +82,46 @@ var chart = AmCharts.makeChart("chartdiv", {
         "bullet": "round",
         "title": "Bubble",
         "valueField": "Bubble",
-        "fillAlphas": 0
+        "fillAlphas": 0,
+        // "lineColor": "#ffffff",
+        "lineThickness": 2,
     }, {
         "balloonText": "Selection - [[value]]ms",
         "bullet": "round",
         "title": "Selection",
         "valueField": "Selection",
-        "fillAlphas": 0
+        "fillAlphas": 0,
+        "lineThickness": 2
     }, {
         "balloonText": "Insertion - [[value]]ms",
         "bullet": "round",
         "title": "Insertion",
         "valueField": "Insertion",
-        "fillAlphas": 0
+        "fillAlphas": 0,
+        "lineColor": "#EC7063",
+        "lineThickness": 2
     }, {
         "balloonText": "Quick - [[value]]ms",
         "bullet": "round",
         "title": "Quick",
         "valueField": "Quick",
-        "fillAlphas": 0
+        "fillAlphas": 0,
+        "lineThickness": 2
     }, {
         "balloonText": "Merge - [[value]]ms",
         "bullet": "round",
         "title": "Merge",
         "valueField": "Merge",
-        "fillAlphas": 0
+        "fillAlphas": 0,
+        "lineColor": "#58D68D",
+        "lineThickness": 2
     }, {
         "balloonText": "Heap - [[value]]ms",
         "bullet": "round",
         "title": "Heap",
         "valueField": "Heap",
-        "fillAlphas": 0
+        "fillAlphas": 0,
+        "lineThickness": 2
     }],
     "chartCursor": {
         "cursorAlpha": 0,
